@@ -66,6 +66,10 @@ function createPlayer(name, index,) {
     return { getName, getIndex, makeMove }
 }
 
+function createGameFlow() {
+    let isStart = false;
+}
+
 //testing
 
 const player1 = createPlayer("Adam", 1);
